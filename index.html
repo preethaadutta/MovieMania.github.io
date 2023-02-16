@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="navbar">
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="#" class="logo">MovieMania</a>
+                </div>
+                <div class="openMenu"><i class="fa fa-bars"></i></div>
+                <ul class="mainMenu">
+                    <li>
+                        <a href="index.html" class="cool-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="account.html">Account</a>
+                    </li>
+                    <li>
+                        <a href="subscription.html">Subscription</a>
+                    </li>
+                    <!--<li>
+                        <a href="#">About</a>
+                    </li>-->
+                    <div class="closeMenu">
+                        <i class="fa fa-times"></i>
+                    </div>
+                    <!--<span class="icons">
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                    </span>-->
+                    <span class="icons">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </span>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!--<section class="banner"></section>-->
+    <section class="home">
+        <div class="slider">
+            <div class="slide active" style="background-image: url('images/Pathaan_Banner.jpeg')">
+                <div class="container">
+                    <div class="caption">
+                        <p>Yash Raj Films Presents</p>
+                        <h1>PATHAAN- Coming Next Month, 2023</h1>
+                        <a href="#" target="_blank">Watch Trailer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/avatar_banner1.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <p>A James Cameron's Film</p>
+                        <h1>AVATAR-The Way Of Water</h1>
+                        <a href="#" target="_blank">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/falling-for-christmas_banner1.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <p>Celebrate This Christmas With Movie</p>
+                        <h1>Falling For Christmas- Ultimate Romantic Movie</h1>
+                        <a href="#" target="_blank">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <!-- controls  -->
+        <div class="controls">
+            <div class="prev"><i class="fas fa-chevron-left"></i></div>
+            <div class="next"><i class="fas fa-chevron-right"></i></div>
+        </div>
+    
+        <!-- indicators -->
+        <div class="indicator">
+        </div>
+    </section>
+
+    <section id="trending">
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Trending This Month</h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/volcano1.jpg" alt="">
+                        <span class="movie-list-item-title">The Volcano</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Rory Kennedy
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/bullet_train.jpg" alt="">
+                        <span class="movie-list-item-title">Bullet Train</span>
+                        <p class="movie-list-item-desc">
+                            Directed by David Leitch
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/after_ever_happy.jpg" alt="">
+                        <span class="movie-list-item-title">Ever Happy</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Castille Landon
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/drakula_untold.jpg" alt="">
+                        <span class="movie-list-item-title">Drakula Untold</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Gary Shore
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/ek_tha_tiger.jpg" alt="">
+                        <span class="movie-list-item-title">Ek Tha Tiger</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Kabir Khan
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/spider_man.jpg" alt="">
+                        <span class="movie-list-item-title">Spider Man 2</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Sam Raimi
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/two_states.jpg" alt="">
+                        <span class="movie-list-item-title">Two States</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Abhishek Verman
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Top Picks For You</h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/the_irishman.jpg" alt="">
+                        <span class="movie-list-item-title">The Irishman</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Abhishek Verman 
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/friends.jpeg" alt="">
+                        <span class="movie-list-item-title">Friends</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Abhishek Verman 
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/beauty_and_beast.jpg" alt="">
+                        <span class="movie-list-item-title">Beauty and beast</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Bill Condon
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/andhadhun.jpg" alt="">
+                        <span class="movie-list-item-title">Andhadhun</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Sriram Raghavan
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/the_guilty.jpg" alt="">
+                        <span class="movie-list-item-title">The Guilty</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Antoine Fuqua
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/haseen_dillruba.jpg" alt="">
+                        <span class="movie-list-item-title">Haseen Dillruba</span>
+                        <p class="movie-list-item-desc">
+                            A romantic thriller film
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/dobaara.jpeg" alt="">
+                        <span class="movie-list-item-title">Dobaara</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Anurag Kashyap
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="featured-content" style="background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(95, 6, 6, 0.92)), url('images/the_invitation4.jpg'); background-size: cover; background-repeat: no-repeat;">
+            <img class="featured-title" src="images/the_invitation_logo1.png" alt="">
+            <p class="featured-desc">
+                YOU ARE CORDIALLY INVITED TO A NIGHTMARE GENERATIONS IN THE MAKING THE INVITATION 
+            </p>
+            <p class="featured-desc">
+                ~ Top rated Horror & Thriller Film
+            </p>
+            <a href="#" target="_blank" class="featured-button">WATCH NOW</a>
+        </div>
+
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Horror Thrillers</h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/Smile.jpg" alt="">
+                        <span class="movie-list-item-title">Smile</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Parker Finn
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/a_quiet_place.jpg" alt="">
+                        <span class="movie-list-item-title">A Quiet Place</span>
+                        <p class="movie-list-item-desc">
+                            Directed by John Krasinski
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/annabelle.jpg" alt="">
+                        <span class="movie-list-item-title">Annabelle</span>
+                        <p class="movie-list-item-desc">
+                            Directed by John R. Leonetti
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/the_uninvited.jpg" alt="">
+                        <span class="movie-list-item-title">The Uninvited</span>
+                        <p class="movie-list-item-desc">
+                            Directed by the Guard Brothers
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/the_forest.jpg" alt="">
+                        <span class="movie-list-item-title">The Forest</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Jason Zada
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/The_8th_Night.jpg" alt="">
+                        <span class="movie-list-item-title">The 8th Night</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Kim Tae-hyoung
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/escape_room.jpg" alt="">
+                        <span class="movie-list-item-title">Escape Room</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Adam Robitel
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Popular Mysterious</h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/cbi_5.jpg" alt="">
+                        <span class="movie-list-item-title"> cbi 5</span>
+                        <p class="movie-list-item-desc">
+                            Directed by K.Madhu
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/lost_city.jpg" alt="">
+                        <span class="movie-list-item-title">Lost City</span>
+                        <p class="movie-list-item-desc">
+                            Directed by the Nee brothers
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/searching.jpg" alt="">
+                        <span class="movie-list-item-title">Searching</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Aneesh Chaganty
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/sherlock_holmes.jpg" alt="">
+                        <span class="movie-list-item-title">Sherlock Holmes</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Guy Ritchie
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/glass_onion.jpg" alt="">
+                        <span class="movie-list-item-title">Glass Onion</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Rian Johnson
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/hit_the_first_case.jpg" alt="">
+                        <span class="movie-list-item-title">HIT</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Sailesh Kolanu
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/murder_mystery.jpg" alt="">
+                        <span class="movie-list-item-title">Murder Mystery</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Kyle Newacheck
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="featured-content" style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('images/jurasik_park3.jpg'); background-size: cover; background-repeat: no-repeat;">
+            <img class="featured-title" src="images/jurasik_world_logo.jpg" alt="">
+            <p class="featured-desc">
+                Directed by Colin Trevorrow
+            </p>
+            <p class="featured-desc">
+                ~ Most Adventurous Science Fictional Film
+            </p>
+            <a href="#" target="_blank" class="featured-button">WATCH NOW</a>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Best In Bollywood</h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/roohi.jpg" alt="">
+                        <span class="movie-list-item-title">Roohi</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Hardik Mehta
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/ek_villan.jpg" alt="">
+                        <span class="movie-list-item-title">Ek Villain</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Mohit Suri
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/badla.jpg" alt="">
+                        <span class="movie-list-item-title">Badla</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Sujoy Ghosh
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/raazi.jpg" alt="">
+                        <span class="movie-list-item-title">Raazi</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Meghna Gulzar
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/3_idiots.jpg" alt="">
+                        <span class="movie-list-item-title">3 Idiots</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Rajkumar Hirani
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/kesari.jpg" alt="">
+                        <span class="movie-list-item-title">Kesari</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Meghna Gulzar
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/doctorG.jpg" alt="">
+                        <span class="movie-list-item-title">DoctorG</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Anubhuti Kashyap
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">More For You</h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/titanic.jpg" alt="">
+                        <span class="movie-list-item-title">Titanic</span>
+                        <p class="movie-list-item-desc">
+                            Directed by James Cameron
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/red_notice.jpg" alt="">
+                        <span class="movie-list-item-title">Red Notice</span>
+                        <p class="movie-list-item-desc">
+                            An American action comedy film
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/geostorm.jpg" alt="">
+                        <span class="movie-list-item-title">Geostorm</span>
+                        <p class="movie-list-item-desc">
+                            An American science fiction disaster film
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/the_core.jpg" alt="">
+                        <span class="movie-list-item-title">The Core</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Jon Amiel
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/mission_impossible.jpg" alt="">
+                        <span class="movie-list-item-title">Mission</span>
+                        <p class="movie-list-item-desc">
+                            An American action spy film series
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/pirates.jpg" alt="">
+                        <span class="movie-list-item-title">Pirates</span>
+                        <p class="movie-list-item-desc">
+                            An American fantasy supernatural film series
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="images/hurt-locker.jpg" alt="">
+                        <span class="movie-list-item-title">Hurt Locker</span>
+                        <p class="movie-list-item-desc">
+                            Directed by Kathryn Bigelow
+                        </p>
+                        <a href="#" target="_blank" class="movie-list-item-button">Watch</a>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+        <!--<div class="main">
+            <footer>
+                <div class="waves">
+                    <div class="wave" id="wave1"></div>
+                </div>
+                <div class="zoom">
+                    <ul class="social_icon">
+                        <li>
+                            <a href="#">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+                <p>Made by Preethaa Dutta 2022 - Your Entertainment Guide - All Rights Reserved</p>
+            </footer>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+        </script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+        </script>-->
+        <footer>
+            <h5>Made by Preethaa Dutta 2022 - Your Entertainment Guide - All Rights Reserved</h5>
+        </footer>
+    </section>
+    <script src="home.js"></script>
+</body>
+</html>

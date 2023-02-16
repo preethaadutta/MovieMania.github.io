@@ -1,0 +1,414 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap');
+*{
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Times New Roman', Times, serif;
+  margin:0; 
+  padding:0; 
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none; 
+  border:none;
+  text-decoration: none;
+}
+/*body{
+  background-image: url(https://img.helpnetsecurity.com/wp-content/uploads/2020/03/23143409/netflix-collection.jpg);
+  background-size: cover;
+}*/
+body{
+  /*background:linear-gradient(0deg, rgba(0, 0, 0, 0.311), rgba(5, 0, 0, 0.249)), url(https://cutewallpaper.org/21/kodi-backgrounds-1920x1080/Kodi-Hd-Wallpaper-26-images-on-Genchi.info.jpg);rgba(106, 97, 97, 0.33)*/
+  background:linear-gradient(120deg, rgba(92, 4, 4, 0.311), rgba(36, 1, 1, 0.249)), url(https://cutewallpaper.org/21/kodi-backgrounds-1920x1080/Kodi-Hd-Wallpaper-26-images-on-Genchi.info.jpg);
+  background-size: cover;
+  overflow-x: hidden;
+}
+.subscription{
+  /*background-color: #59405C;*/
+  /*height: 100vh;*/
+  overflow:hidden;
+  position: relative;
+}
+h2{
+  color: #fff;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding-top: 100px;
+}
+.container{
+  min-height: 100vh;
+  text-align: center;
+}
+
+.container .box-container{
+  max-width: 1100px;
+  margin:0 auto;
+  padding:20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap:20px;
+}
+
+.container .box-container .box{
+  /*background: #fff;*/
+  background: rgba(238, 24, 60, 0.253);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  border-radius: 25px;
+}
+/*
+.container .box-container .box:nth-child(2){
+  border:2px solid #000;
+}
+*/
+.container .box-container .box:nth-child(2) .btn{
+  /*background: #444;*/
+  background: rgba(146, 144, 144, 0.413);
+  backdrop-filter: blur(2px);
+  border-radius: 25px;
+}
+
+.container .box-container .box:nth-child(2) .btn:hover{
+  background: crimson;
+}
+
+.container .box-container .box h3{
+  font-size: 25px;
+  padding:17px 0;
+  color:#FFF000;
+}
+
+.container .box-container .box .price{
+  color:#fff;
+  /*background: crimson;*/
+  background: rgba(238, 24, 60, 0.453);
+  backdrop-filter: blur(2px);
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.container .box-container .box .price.year{
+  display: none;
+}
+
+.container .box-container .box .list{
+  margin:20px 0;
+}
+
+.container .box-container .box .list p{
+  padding:15px 0;
+  font-size: 17px;
+  color:#fff;
+}
+
+.container .box-container .box .list p i{
+  padding-right: 5px;
+  color:#FFF000;/*crimson;*/
+}
+
+.container .box-container .box .btn{
+  margin:20px;
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  /*background: #444;*/
+  background: rgba(146, 144, 144, 0.413);
+  backdrop-filter: blur(2px);
+  border-radius: 25px;
+  color:#FFF000;
+  padding:10px;
+}
+
+.container .box-container .box .btn:hover{
+  background: crimson;
+  color: #fff;
+}
+
+.container .price-toggler{
+  margin-top: 20px;
+  display: inline-block;
+  padding:5px;
+  height: 51px;
+  border-radius: 25px;
+  background: none;
+  /*backdrop-filter: blur(2px);*/
+  border: 2px solid #fff;
+}
+
+.container .price-toggler span{
+  padding:7px 30px;
+  cursor: pointer;
+  color:rgb(238, 24, 60);
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.container .price-toggler span.active{
+  background: rgb(238, 24, 60);
+  font-weight: bold;
+  color:#fff;
+}
+
+@media (max-width:450px){
+  .container .box-container{
+    grid-template-columns: 1fr;
+  }
+}
+
+footer{
+  /*background-color: rgb(251, 161, 176);*/
+  background-color: #ed6bb7;
+  text-align: center;
+  height: 6vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+}
+h5{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #000;
+}
+@media screen and (max-width:409px){
+  footer{
+    height: 9vh;
+  }
+}
+
+@media screen and (max-width:294px){
+  footer{
+    width: 144%;
+  }
+}
+
+
+
+
+
+
+
+nav{
+  /*background: rgb(0, 0, 0);*/
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .mainMenu{
+  display: flex;
+  list-style: none;
+}
+nav .mainMenu li a{
+  display: inline-block;
+  padding: 15px;/*padding: 0 10px;*/
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(238, 24, 60);
+  font-weight: 800;
+  font-size: 18px;
+  transition: 0.2s ease;
+}
+nav .mainMenu li a:hover{
+  color: #FFF000;
+}
+/*
+.cool-link::after{
+  content:'';
+  position:absolute;
+  background-color: #000;
+  height: 3px;
+  width:0;
+  left:0;
+  bottom:-10px;
+  transition: width 0.3s;
+}
+.cool-link:hover::after{
+  width: 10%;
+  transition: width 0.3s;
+}
+*/
+nav .openMenu{
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+nav .mainMenu .closeMenu,
+.icons i{
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+  color: #FFF000;
+}
+.fa-facebook:hover{
+  color: rgb(238, 24, 60);
+}
+.fa-twitter:hover{
+  color: rgb(238, 24, 60);
+}
+.fa-instagram:hover{
+  color: rgb(238, 24, 60);
+}
+.fa-youtube:hover{
+  color: rgb(238, 24, 60);
+}
+
+
+nav .logo{
+  margin: 6px;
+  cursor: pointer;
+  /*color:#fff;*/
+  font-family: 'Pacifico', cursive;
+  /*font-family: 'Righteous', cursive;*/
+  background: linear-gradient(to right,#ED008C,#FFF000,rgb(238, 24, 60));
+  /*background: linear-gradient(to right,rgb(238, 24, 60),#2c1289);*/
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
+
+
+.icons{
+  display: flex;
+}
+.icons a{
+  width: 100%;
+  height: 100%;/*height: 80px;*/
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+  margin: 0 5px;/*margin: 0 30px;*/
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.icons a .fab{
+  font-size: 1.5rem;/*font-size: 30px;*/
+  line-height: 100%;/*line-height: 80px;*/
+  position: relative;
+  z-index: 10;
+  transition: color 0.5s;
+}
+.icons a::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: -90px;
+  left: 0;
+  background: linear-gradient(45deg,#ED008C,#FFF000);
+  position: absolute;
+  transition: 0.5s;
+}
+.icons a:hover::after{
+  top: 0;
+}
+.icons a:hover .fab{
+  color: #fff;
+}
+
+
+
+
+
+header{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  /*display: flex;*/
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 10px 100px;/*padding: 20px 100px;*/
+  z-index: 100000;
+}
+header.sticky{
+  padding: 0px 100px;/*padding: 5px 100px;*/
+  /*background: rgba(23, 204, 228, 0.253);*/
+  background: rgba(242, 202, 211, 0.253);
+  backdrop-filter: blur(2px);
+}
+header .logo{
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  text-decoration: none;
+  font-size: 1.5em;/*font-size: 2em;*/
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+.banner{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(bg.jpg);
+  background-size: cover;
+}
+header.sticky .logo , header.sticky ul li a{
+  color: rgb(238, 24, 60);
+}
+
+
+
+
+
+
+@media (max-width: 800px){
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background: rgba(23, 204, 228, 0.253);*/
+    background: rgba(242, 202, 211, 0.253);
+    backdrop-filter: blur(2px);
+    transition: top 1s ease 0s;
+    display: none;
+  }
+  nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+  }
+  nav .openMenu {
+      display: block;
+      color: #FFF000;
+  }
+  nav .mainMenu li a:hover {
+      background: none;
+      color: #FFF000;
+  }
+  .icons i{
+    display: inline-block;
+    padding: 12px;
+    /*//to do social media icon hover effect
+    box-shadow: 0 0 10px 10px rgba(226, 222, 238, 0.05);
+    margin: 0 30px;
+    border-radius: 50%;
+    */
+  }
+  header.sticky{
+    padding: 5px 20px;/*padding: 5px 60px;*/
+  }
+  header.sticky ul li a{
+    color: rgb(238, 24, 60);
+  }
+  /*header .logo{
+    font-size: large;
+  }*/
+  header{
+    padding: 0;
+  }
+}
+  
