@@ -2,6 +2,16 @@
 
 MovieMania is a streaming website, in which one can watch movies, web series etc. This website is developed by HTML, CSS, JavaScript. The user interface of this website allows the user to create an account and subscribe with any plan. The website is fully responsive for all devices.
 
+
+## Tools Used
+
+📌 HTML
+
+📌 CSS
+
+📌 JavaScript
+
+
 ## Features✨
 
 ✔ Home page with movies list
@@ -15,24 +25,16 @@ MovieMania is a streaming website, in which one can watch movies, web series etc
 ✔ Fully Responsive
 
 
-## Tools Used
-
-✔ HTML
-
-✔ CSS
-
-✔ JavaScript
-
-
 ## Link of the Website
 
 https://preethaadutta.github.io/MovieMania.github.io/
+
+
 ## Developed By👩‍💻
 
 - [@preethaadutta](https://github.com/preethaadutta)
 
-## ❤
 
-Thank You for opening my repository.💖
+💖 Thank You for opening my repository 💖
 
-Please star my repository if you like.😊
+💖 Please star this repository if You like It 💖
